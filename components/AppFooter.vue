@@ -3,7 +3,7 @@
     <v-container>
       <div class="text-center">
         <p class="text-body-2 mb-0">
-          © {{ new Date().getFullYear() }} Jean Bacari. Tous droits réservés.
+          © {{ new Date().getFullYear() }} Lorem ipsum. Tous droits réservés.
         </p>
       </div>
     </v-container>

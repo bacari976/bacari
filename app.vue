@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app elevation="1" class="app-bar px-4">
       <v-app-bar-title class="text-h5 font-weight-bold">
-        <span class="text-indigo-lighten-3">Jean</span> Bacari
+        <span class="text-indigo-lighten-3">Lorem</span> ipsum
       </v-app-bar-title>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon @click="drawer = !drawer" class="d-flex d-md-none text-white"></v-app-bar-nav-icon>
