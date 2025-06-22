@@ -1,0 +1,89 @@
+{
+  "bienvenue": {
+    "id": "bienvenue",
+    "message": "Salut ! Je suis l'assistant de Jean Bacari. Comment puis-je t'aider aujourd'hui ?",
+    "choices": [
+      { "text": "Découvrir les services", "action": "services" },
+      { "text": "Voir les témoignages", "action": "temoignages" },
+      { "text": "Consulter les tarifs", "action": "tarifs" },
+      { "text": "Prendre contact", "action": "contact" }
+    ]
+  },
+  "services": {
+    "id": "services",
+    "message": "Jean propose 3 services principaux pour exploser sur LinkedIn :",
+    "choices": [
+      { "text": "Storytelling LinkedIn", "action": "storytelling" },
+      { "text": "Stratégie d'écriture", "action": "strategie" },
+      { "text": "Gain de temps", "action": "gain-temps" },
+      { "text": "Réserver un appel", "action": "reserver-appel" }
+    ]
+  },
+  "storytelling": {
+    "id": "storytelling",
+    "message": "**Storytelling LinkedIn**\n\nJean capture ta voix, structure tes pensées et produit des textes authentiques et percutants :\n\n• Posts qui se démarquent\n• Contenu qui résonne avec ton audience\n• Stratégie de storytelling personnalisée\n• Différenciation sur le marché",
+    "choices": [
+      { "text": "Voir les autres services", "action": "services" },
+      { "text": "Réserver un appel", "action": "reserver-appel" },
+      { "text": "Retour au menu", "action": "bienvenue" }
+    ]
+  },
+  "strategie": {
+    "id": "strategie",
+    "message": "**Stratégie d'écriture**\n\nDiscrétion, écoute active, créativité et exigence éditoriale :\n\n• Plan de contenu personnalisé\n• Optimisation des posts\n• Analyse des résultats\n• Ajustements stratégiques",
+    "choices": [
+      { "text": "Voir les autres services", "action": "services" },
+      { "text": "Consulter les tarifs", "action": "tarifs" },
+      { "text": "Retour au menu", "action": "bienvenue" }
+    ]
+  },
+  "gain-temps": {
+    "id": "gain-temps",
+    "message": "**Gain de Temps**\n\nJean t'aide à gagner en visibilité, abonnés et clients avec transparence et efficacité :\n\n• Création de contenu régulier\n• Calendrier éditorial\n• Suivi des tendances\n• Engagement communautaire",
+    "choices": [
+      { "text": "Voir le Starter Pack", "action": "tarifs" },
+      { "text": "Réserver un appel", "action": "reserver-appel" },
+      { "text": "Retour au menu", "action": "bienvenue" }
+    ]
+  },
+  "temoignages": {
+    "id": "temoignages",
+    "message": "**Témoignages clients**\n\nDécouvre ce que disent les clients de Jean :\n\n• Accompagnement personnalisé\n• Résultats concrets\n• Satisfaction garantie\n• Révision gratuite si insatisfait",
+    "choices": [
+      { "text": "Voir les services", "action": "services" },
+      { "text": "Consulter les tarifs", "action": "tarifs" },
+      { "text": "Aller aux témoignages", "action": "scroll-temoignages" },
+      { "text": "Retour au menu", "action": "bienvenue" }
+    ]
+  },
+  "tarifs": {
+    "id": "tarifs",
+    "message": "**Starter Pack - 800€/mois**\n\n-100€ pour les 5 premiers clients !\n\n✅ Création de contenu personnalisé\n✅ Stratégie de storytelling\n✅ Optimisation des posts\n✅ Calendrier éditorial\n✅ 1 appel de suivi par mois\n✅ Révision gratuite si insatisfait",
+    "choices": [
+      { "text": "Réserver un appel", "action": "reserver-appel" },
+      { "text": "Voir les services", "action": "services" },
+      { "text": "Aller aux tarifs", "action": "scroll-tarifs" },
+      { "text": "Contact WhatsApp", "action": "contact-whatsapp" }
+    ]
+  },
+  "contact": {
+    "id": "contact",
+    "message": "**Contact Jean Bacari**\n\nComment préfères-tu être contacté ?",
+    "choices": [
+      { "text": "Réserver un appel Calendly", "action": "reserver-appel" },
+      { "text": "WhatsApp : 06 98 93 13 36", "action": "contact-whatsapp" },
+      { "text": "Voir les horaires", "action": "horaires" },
+      { "text": "Retour au menu", "action": "bienvenue" }
+    ]
+  },
+  "horaires": {
+    "id": "horaires",
+    "message": "**Horaires de disponibilité**\n\nLundi - Samedi : 9h - 20h\nTéléphone : 06 98 93 13 36\nWhatsApp : 06 98 93 13 36\n\nAccompagnement personnalisé garanti !",
+    "choices": [
+      { "text": "Réserver un appel", "action": "reserver-appel" },
+      { "text": "WhatsApp maintenant", "action": "contact-whatsapp" },
+      { "text": "Voir les tarifs", "action": "tarifs" },
+      { "text": "Retour au menu", "action": "bienvenue" }
+    ]
+  }
+} 

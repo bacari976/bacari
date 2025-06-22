@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app elevation="1" class="app-bar px-4">
       <v-app-bar-title class="text-h5 font-weight-bold">
-        <span class="text-indigo-lighten-3">Lorem</span> ipsum
+        <span class="text-indigo-lighten-3">Jean</span> Bacari
       </v-app-bar-title>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon @click="drawer = !drawer" class="d-flex d-md-none text-white"></v-app-bar-nav-icon>
@@ -42,6 +42,8 @@
       <v-divider class="my-5"></v-divider>
       <AppFooter />
     </v-main>
+
+    <ChatBot />
   </v-app>
 </template>
 
@@ -53,6 +55,7 @@ import Cta from './components/Cta.vue';
 import Hero from './components/Hero.vue';
 import Pricing from './components/Pricing.vue';
 import Services from './components/Services.vue';
+import ChatBot from './components/ChatBot.vue';
 
 const drawer = ref(false);
 

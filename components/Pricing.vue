@@ -56,7 +56,7 @@
                 <div class="text-h6 mb-3 text-white">Accompagnement personnalisé</div>
                 <div class="d-flex align-center mb-3">
                   <v-icon color="accent" class="mr-2">mdi-phone</v-icon>
-                  <span class="text-body-1 text-white">01 23 45 67 89</span>
+                  <span class="text-body-1 text-white">06 98 93 13 36</span>
                 </div>
                 <div class="d-flex align-center mb-3">
                   <v-icon color="accent" class="mr-2">mdi-calendar-check</v-icon>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="d-flex align-center">
                   <v-icon color="accent" class="mr-2">mdi-whatsapp</v-icon>
-                  <span class="text-body-1 text-white">01 23 45 67 89</span>
+                  <span class="text-body-1 text-white">06 98 93 13 36</span>
                 </div>
               </div>
 
