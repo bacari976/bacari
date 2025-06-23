@@ -62,24 +62,22 @@ import { useHead } from '#imports';
 const drawer = ref(false);
 
 useHead({
-  head: {
-    title: 'Jean Bacari - Ghostwriting',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: 'Jean Bacari - Ghostwriting' },
-      { name: 'keywords', content: 'Ghostwriting, Ghostwritier, GhostWritting services' },
-      { name: 'robots', content: 'index, follow' },
-      { property: 'og:title', content: 'Jean Bacari - Ghostwriting' },
-      { property: 'og:description', content: 'Jean Bacari - Ghostwriting' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:locale', content: 'fr_FR' },
-      { property: 'og:site_name', content: 'Jean Bacari - Ghostwriting' },
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  }
+  title: 'Jean Bacari - Ghostwriting',
+  meta: [
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'description', content: 'Jean Bacari - Ghostwriting' },
+    { name: 'keywords', content: 'Ghostwriting, Ghostwritier, GhostWritting services' },
+    { name: 'robots', content: 'index, follow' },
+    { property: 'og:title', content: 'Jean Bacari - Ghostwriting' },
+    { property: 'og:description', content: 'Jean Bacari - Ghostwriting' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:locale', content: 'fr_FR' },
+    { property: 'og:site_name', content: 'Jean Bacari - Ghostwriting' },
+  ],
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+  ]
 })
 
 const menuItems = [
