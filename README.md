@@ -8,7 +8,8 @@
 2. Dans la barre latérale, cliquez sur "Repositories"
 3. Créez un nouveau repository avec le nom de votre choix
 4. Installez [Visual Studio Code](https://code.visualstudio.com)
-5. Ouvrez le dossier du projet dans VS Code
+5. Ouvrez un terminal puis écrire git clone "URL_GITHUB_DU_PROJET (la ou tu lis ce readme)"
+6. Normalement le projet est clone et ta accés au dossier
 
 ## 2. Installation des Dépendances
 
@@ -19,7 +20,7 @@
    npm init
    npm install
    ```
-4. Copiez-collez les commandes Git fournies par GitHub
+4. Copiez-collez les commandes Git fournies par GitHub (dans le repertoire crée avant)
 5. Vérifiez que vos fichiers sont bien présents dans le repository
 
 ## 3. Déploiement sur Vercel
