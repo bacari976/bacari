@@ -11,6 +11,8 @@
 5. Ouvrez un terminal puis écrire git clone "URL_GITHUB_DU_PROJET (la ou tu lis ce readme)"
 6. Normalement le projet est clone et ta accés au dossier
 
+Rappel : pour acceder au dossier depuis le terminal : cd + nom du dossier
+
 ## 2. Installation des Dépendances
 
 1. Installez [Node.js](https://nodejs.org) si ce n'est pas déjà fait

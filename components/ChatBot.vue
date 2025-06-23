@@ -89,7 +89,7 @@
 
 <script setup lang="ts">
 import { nextTick, onMounted, ref } from 'vue'
-import type { ChatChoice, ChatMessage, ChatScenario } from '../../types/chat'
+import type { ChatChoice, ChatMessage, ChatScenario } from '../types/chat'
 
 const isOpen = ref(false)
 const isTyping = ref(false)
