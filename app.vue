@@ -13,7 +13,7 @@
         </v-btn>
         <v-btn color="primary" variant="flat" class="ml-4" href="https://calendly.com/bacari-bm" target="_blank"
           aria-label="Réserver un appel">
-          Je réserve un appel
+          Réserver un appel découverte
         </v-btn>
       </div>
     </v-app-bar>
