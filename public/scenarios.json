@@ -11,10 +11,10 @@
   },
   "services": {
     "id": "services",
-    "message": "Jean propose 3 services principaux pour exploser sur LinkedIn :",
+    "message": "Jean propose 3 offres pour exploser sur LinkedIn :",
     "choices": [
-      { "text": "Storytelling LinkedIn", "action": "storytelling" },
-      { "text": "Stratégie d'écriture", "action": "strategie" },
+      { "text": "Plus de visibilité", "action": "storytelling" },
+      { "text": "Plus de client", "action": "strategie" },
       { "text": "Gain de temps", "action": "gain-temps" },
       { "text": "Réserver un appel", "action": "reserver-appel" }
     ]
@@ -41,13 +41,20 @@
     "id": "gain-temps",
     "message": "**Gain de Temps**\n\nJean t'aide à gagner en visibilité, abonnés et clients avec transparence et efficacité :\n\n• Création de contenu régulier\n• Calendrier éditorial\n• Suivi des tendances\n• Engagement communautaire",
     "choices": [
-      { "text": "Voir le Starter Pack", "action": "tarifs" },
+      { "text": "Voir l'offre essentiel", "action": "tarifs" },
       { "text": "Réserver un appel", "action": "reserver-appel" },
       { "text": "Retour au menu", "action": "bienvenue" }
     ]
   },
   "temoignages": {
-    "id": "temoignages",
+    "id": "Fallait que je te le dise clairement : t’assures grave.
+T’es pas juste un ghostwriter, t’es le traducteur officiel de mes pensées
+
+T’arrives à capter l’idée, à sentir le ton, à poser les bons mots avec le bon flow.
+À chaque fois je me dis "ok, c’est exactement ça que je voulais dire" mais en mieux 😄
+
+T’as un vrai talent, et bosser avec toi, c’est que du kiff
+Merci pour ton taf de l’ombre, on forme une bonne team",
     "message": "**Témoignages clients**\n\nDécouvre ce que disent les clients de Jean :\n\n• Accompagnement personnalisé\n• Résultats concrets\n• Satisfaction garantie\n• Révision gratuite si insatisfait",
     "choices": [
       { "text": "Voir les services", "action": "services" },
@@ -58,7 +65,7 @@
   },
   "tarifs": {
     "id": "tarifs",
-    "message": "**Starter Pack - 800€/mois**\n\n-100€ pour les 5 premiers clients !\n\n✅ Création de contenu personnalisé\n✅ Stratégie de storytelling\n✅ Optimisation des posts\n✅ Calendrier éditorial\n✅ 1 appel de suivi par mois\n✅ Révision gratuite si insatisfait",
+    "message": "**Starter Pack - 800€/mois**\n\n-100€ pour les 5 premiers clients !\n\n✅ Création de contenu personnalisé\n✅ Stratégie de storytelling\n✅ Optimisation de profil\n✅ Calendrier éditorial\n✅ 1 appel de suivi par mois\n✅ Révision gratuite si insatisfait",
     "choices": [
       { "text": "Réserver un appel", "action": "reserver-appel" },
       { "text": "Voir les services", "action": "services" },
@@ -80,7 +87,7 @@
     "id": "horaires",
     "message": "**Horaires de disponibilité**\n\nLundi - Samedi : 9h - 20h\nTéléphone : 06 98 93 13 36\nWhatsApp : 06 98 93 13 36\n\nAccompagnement personnalisé garanti !",
     "choices": [
-      { "text": "Réserver un appel", "action": "reserver-appel" },
+      { "text": "Réserver ton appel découverte", "action": "reserver-appel" },
       { "text": "WhatsApp maintenant", "action": "contact-whatsapp" },
       { "text": "Voir les tarifs", "action": "tarifs" },
       { "text": "Retour au menu", "action": "bienvenue" }
