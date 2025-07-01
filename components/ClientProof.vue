@@ -77,7 +77,14 @@ const stats = [
 
 const slides = [
   {
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    quote: "Fallait que je te le dise clairement : t’assures grave.
+T’es pas juste un ghostwriter, t’es le traducteur officiel de mes pensées
+
+T’arrives à capter l’idée, à sentir le ton, à poser les bons mots avec le bon flow.
+À chaque fois je me dis "ok, c’est exactement ça que je voulais dire" mais en mieux 😄
+
+T’as un vrai talent, et bosser avec toi, c’est que du kiff
+Merci pour ton taf de l’ombre, on forme une bonne team",
     name: "Anonyme",
     position: "Anonyme"
   },
